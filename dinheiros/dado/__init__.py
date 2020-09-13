@@ -1,5 +1,3 @@
-from utilidadecev import moeda
-
 def leiadinheiro():
     valor = input("Digite o valor: ").replace(",", ".")
     while True:
@@ -14,3 +12,4 @@ def leiadinheiro():
 
 
     
+print(leiadinheiro())
